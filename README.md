@@ -1,29 +1,50 @@
-""""Simulateur Intérêts Simples""""
-Calculateur d'intérêts simples interactif pour compte d'épargne en Dinars Tunisiens (TND).
+# 🏦 Simulateur d'Épargne Tunisien (TND)
 
-Fonctionnalités :
+![Version](https://img.shields.io/badge/version-1.0.0-blue)
+![License](https://img.shields.io/badge/license-MIT-green)
+![Tech](https://img.shields.io/badge/Tech-HTML5%20%7C%20CSS3%20%7C%20JS-orange)
 
-* Interface interactive avec sliders
+Calculateur d'intérêts simples et composés interactif conçu pour modéliser des comptes d'épargne en **Dinars Tunisiens (TND)**.
 
-* Calculs en temps réel
+## ✨ Fonctionnalités
 
-* Graphiques d'évolution
+* **Interface Interactive** : Ajustement des paramètres via des sliders dynamiques.
+* **Calculs en Temps Réel** : Mise à jour instantanée des résultats sans rechargement.
+* **Visualisation Graphique** : Graphiques d'évolution du capital via **Chart.js**.
+* **Analyse Comparative** : Comparaison directe entre intérêts simples et intérêts composés.
+* **Tableau de Bord** : Tableau d'amortissement détaillé période par période.
+* **Design Responsive** : Optimisé pour une utilisation sur mobile, tablette et desktop.
 
-* Tableau d'amortissement détaillé
+## 🚀 Installation & Utilisation
 
-* Comparaison intérêts simples vs composés
+Le projet est "Zero-Configuration". Aucun serveur n'est requis.
 
-* Design responsive
+1.  **Téléchargez** ou **Clonez** le dépôt :
+    ```bash
+    git clone [https://github.com/votre-nom-utilisateur/simulateur-interets-tnd.git](https://github.com/votre-nom-utilisateur/simulateur-interets-tnd.git)
+    ```
+2.  **Ouvrez** le fichier `projet_finance.html` dans votre navigateur Web préféré.
 
-Technologies : HTML5, CSS3, JavaScript, Chart.js
+## 📊 Paramètres Supportés
 
-Instructions : Ouvrir simplement projet_finance.html dans un navigateur.
+| Paramètre | Plage de réglage |
+| :--- | :--- |
+| **Capital Initial** | 100 TND à 1 000 000 TND |
+| **Taux d'Intérêt** | 0.5% à 15% |
+| **Durée** | 1 à 30 ans |
+| **Fréquence** | Annuel, Trimestriel, Mensuel |
 
-** Paramètres
-Capital Initial : 100 TND à 1 000 000 TND
+## 🛠️ Stack Technique
 
-Taux d'Intérêt : 0.5% à 15%
+* **Frontend** : HTML5, CSS3 (Flexbox/Grid)
+* **Logique** : JavaScript (ES6+)
+* **Visualisation** : Chart.js
 
-Durée : 1 à 30 ans
+## 📐 Modèles de Calcul
 
-Fréquence : Annuel, Trimestriel, Mensuel
+Le moteur de calcul utilise les formules financières standards :
+- **Intérêts Simples** : $V_f = C \times (1 + r \times t)$
+- **Intérêts Composés** : $V_f = C \times (1 + \frac{r}{n})^{n \times t}$
+
+---
+*Développé pour l'éducation financière et la simulation de placements en Tunisie.*
