@@ -19,12 +19,6 @@ Technologies : HTML5, CSS3, JavaScript, Chart.js
 
 Instructions : Ouvrir simplement projet_finance.html dans un navigateur.
 
-**Utilisation Rapide:
-1.Téléchargez et extrayez le fichier ZIP
-2.Ouvrez le fichier projet_finance.html dans votre navigateur
-3.Utilisez les sliders pour ajuster les paramètres
-4.Visualisez les résultats en temps réel
-
 ** Paramètres
 Capital Initial : 100 TND à 1 000 000 TND
 
