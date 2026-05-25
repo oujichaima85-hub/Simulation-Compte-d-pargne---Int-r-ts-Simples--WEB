@@ -63,7 +63,7 @@ V_f = C \times \left(1 + \frac{r}{n}\right)^{n \times t}
 Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/tunisian-savings-simulator.git
+git clone https://github.com/oujichaima85-hub/tunisian-savings-simulator.git
 ```
 
 Open:
