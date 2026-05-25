@@ -1,50 +1,89 @@
-# 🏦 Simulateur d'Épargne Tunisien (TND)
+# 🏦 Tunisian Savings Simulator (TND)
 
-![Version](https://img.shields.io/badge/version-1.0.0-blue)
-![License](https://img.shields.io/badge/license-MIT-green)
-![Tech](https://img.shields.io/badge/Tech-HTML5%20%7C%20CSS3%20%7C%20JS-orange)
+An interactive financial simulator designed to model Tunisian savings accounts in TND using simple and compound interest calculations.
 
-Calculateur d'intérêts simples et composés interactif conçu pour modéliser des comptes d'épargne en **Dinars Tunisiens (TND)**.
-
-## ✨ Fonctionnalités
-
-* **Interface Interactive** : Ajustement des paramètres via des sliders dynamiques.
-* **Calculs en Temps Réel** : Mise à jour instantanée des résultats sans rechargement.
-* **Visualisation Graphique** : Graphiques d'évolution du capital via **Chart.js**.
-* **Analyse Comparative** : Comparaison directe entre intérêts simples et intérêts composés.
-* **Tableau de Bord** : Tableau d'amortissement détaillé période par période.
-* **Design Responsive** : Optimisé pour une utilisation sur mobile, tablette et desktop.
-
-## 🚀 Installation & Utilisation
-
-Le projet est "Zero-Configuration". Aucun serveur n'est requis.
-
-1.  **Téléchargez** ou **Clonez** le dépôt :
-    ```bash
-    git clone [https://github.com/votre-nom-utilisateur/simulateur-interets-tnd.git](https://github.com/votre-nom-utilisateur/simulateur-interets-tnd.git)
-    ```
-2.  **Ouvrez** le fichier `projet_finance.html` dans votre navigateur Web préféré.
-
-## 📊 Paramètres Supportés
-
-| Paramètre | Plage de réglage |
-| :--- | :--- |
-| **Capital Initial** | 100 TND à 1 000 000 TND |
-| **Taux d'Intérêt** | 0.5% à 15% |
-| **Durée** | 1 à 30 ans |
-| **Fréquence** | Annuel, Trimestriel, Mensuel |
-
-## 🛠️ Stack Technique
-
-* **Frontend** : HTML5, CSS3 (Flexbox/Grid)
-* **Logique** : JavaScript (ES6+)
-* **Visualisation** : Chart.js
-
-## 📐 Modèles de Calcul
-
-Le moteur de calcul utilise les formules financières standards :
-- **Intérêts Simples** : $V_f = C \times (1 + r \times t)$
-- **Intérêts Composés** : $V_f = C \times (1 + \frac{r}{n})^{n \times t}$
+The application provides real-time financial projections, graphical visualizations and comparative analysis through a responsive web interface.
 
 ---
-*Développé pour l'éducation financière et la simulation de placements en Tunisie.*
+
+## ✨ Features
+
+### 📊 Financial Simulation
+- Simple interest calculation
+- Compound interest calculation
+- Real-time result updates
+- Comparative analysis between investment models
+
+### 🎛 Interactive Interface
+- Dynamic sliders for parameter adjustment
+- Instant calculations without page reload
+- Responsive design for desktop, tablet and mobile devices
+
+### 📈 Data Visualization
+- Capital growth charts using Chart.js
+- Detailed amortization table period by period
+
+---
+
+## 📊 Supported Parameters
+
+| Parameter | Range |
+|---|---|
+| Initial Capital | 100 TND → 1,000,000 TND |
+| Interest Rate | 0.5% → 15% |
+| Duration | 1 → 30 years |
+| Frequency | Annual / Quarterly / Monthly |
+
+---
+
+## 🛠 Technologies
+- HTML5
+- CSS3
+- JavaScript (ES6+)
+- Chart.js
+
+---
+
+## 📐 Financial Models
+
+### Simple Interest
+\[
+V_f = C \times (1 + r \times t)
+\]
+
+### Compound Interest
+\[
+V_f = C \times \left(1 + \frac{r}{n}\right)^{n \times t}
+\]
+
+---
+
+## 🚀 Installation & Usage
+
+Clone the repository:
+
+```bash
+git clone https://github.com/your-username/tunisian-savings-simulator.git
+```
+
+Open:
+
+```txt
+projet_finance.html
+```
+
+in your preferred web browser.
+
+---
+
+## 🎯 Project Objectives
+- Practice JavaScript DOM manipulation
+- Implement financial calculation models
+- Build responsive user interfaces
+- Visualize financial data interactively
+- Improve frontend development skills
+
+---
+
+## 📌 Educational Purpose
+Developed for financial education and savings simulation in Tunisia.
